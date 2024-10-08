@@ -2,16 +2,27 @@
 
 //En el archivo index.html que tienes abierto en el navegador (preferiblemente chrome o firefox) vamos a trabajar con la consola, abre tu inspector y en la pestaña de consola, mira si puedes ver el mensaje escrito abajo.
 
+
 console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Si has encontrado el mensaje puedes continuar con los ejercicios
 
 //CONDICIONALES
 
+// Escribir variable que sea un string y imprimir por consola
+
+let nombre = "Andreea";
+console.log(nombre);
+
+
 //Ejercicio 1: Escribe un condicional if/else que imprima en la consola 'Eres mayor de edad' cuando la constante age tenga el valor correspondiente, si no es así, debe imprimir 'No eres aún mayor de edad'
 
 const age = 18
-//Escribe tu código aquí
+if (age >= 18) {
+console.log("eres mayor de edad");
+} else (<18) {
+console.log("No eres aún mayor de edad");
+} 
 
 
 //Ejercicio 2: Cambia el valor de age a 12 para mirar el resultado del ejercicio anterior.
