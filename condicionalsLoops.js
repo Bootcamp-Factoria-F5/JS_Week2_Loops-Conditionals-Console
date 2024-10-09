@@ -40,24 +40,42 @@ console.log("No eres aún mayor de edad");
 
 //Escribe tu código aquí
 
-const pet = "perro";
-if (pet == "perro") {
+const animal = "perro";
+if (animal === "perro") {
 console.log("Tengo un perro");
-} else if (pet == "gato") {
+} else if (animal === "gato") {
 console.log("Tengo un gato"); 
-} else if (pet == "pájaro") {
+} else if (animal === "pájaro") {
 console.log("Tengo un gato"); 
 } else {
 console.log("No tengo una mascota convencional");
 }
 
+//No consigo que aparezca en Consola, me daba error con pet, la cambié con animal
 
 //Ejercicio 4: cambia el valor de pet a "serpiente" y mira el resultado en consola para comprobar que tu código funciona bien.
-
+// No me funciona en la consola ni el 3, me gustaría repasarlo con uno de vosotros, porfa
 
 //Ejercicio 5: Haz el mismo ejercicio 3, pero con el condicional switch.
 
 //Escribe tu código aquí
+
+const anima = "perro";
+switch (anima) {
+case "perro":
+    console.log("Tengo un perro");
+    break;
+case "gato":
+    console.log("Tengo un perro");
+    break;
+case "pájaro":
+    console.log("Tengo un pájaro");
+    break;
+case "mascota":
+    console.log("No tengo una mascota convencional");
+    break;
+}
+
 
 
 //Ejercicio 6: Usando un operador ternario, escribe un programa que lea la constante weather e imprima en consola si es soleado "Me vestiré con un vestido" y si no es así que imprima "Me vestiré con pantalón"
