@@ -92,7 +92,14 @@ console.log(result)
 
 const value = '1'
 
-//Escribe tu código aquí
+if (typeof value == 'number') {
+    console.log("Es un número");
+} else if (typeof value == 'string') {
+    console.log("Es un string");
+}
+else {
+    console.log("No es ni número ni string");
+}
 
 
 //BUCLES
