@@ -110,7 +110,7 @@ else {
 //Para cada uno de los elementos de 0 a 10, imprime el numero
 
 for (let i = 0; i <= 10; i++) {
-    console.log("iteración numero: " + i);
+    console.log("i " + i);
 }
 
 
