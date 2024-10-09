@@ -82,7 +82,7 @@ case "mascota":
 
 const weather = "soleado"
 
-const result = //Escribe tu código aquí;
+const result = tiempo === "soleado" ? "Me vestiré con un vestido" : "Me vestiré con un pantalón";
 
 console.log(result)
 
