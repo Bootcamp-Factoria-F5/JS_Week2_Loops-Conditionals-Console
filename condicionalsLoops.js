@@ -17,10 +17,10 @@ console.log(nombre);
 
 //Ejercicio 1: Escribe un condicional if/else que imprima en la consola 'Eres mayor de edad' cuando la constante age tenga el valor correspondiente, si no es así, debe imprimir 'No eres aún mayor de edad'
 
-const age = 18
+const age = 12
 if (age >= 18) {
 console.log("eres mayor de edad");
-} else (<18) {
+} else {
 console.log("No eres aún mayor de edad");
 } 
 
@@ -28,10 +28,28 @@ console.log("No eres aún mayor de edad");
 //Ejercicio 2: Cambia el valor de age a 12 para mirar el resultado del ejercicio anterior.
 
 
+if (age1 >= 18) {
+console.log("eres mayor de edad");
+} else {
+console.log("No eres aún mayor de edad");
+}
+
+// el resultado es: No eres aún mayor de edad
+
 //Ejercicio 3: Escribe un condicional if/else que lea la constante pet y si es un perro, que imprima en la consola "Tengo un perro", si es un gato, que imprima en la consola "Tengo un gato", si es un pájaro, que imprima en la consola "Tengo un pájaro" y si no es ninguno de los 3 que imprima "No tengo una mascota convencional"
 
-const pet = "perro";
 //Escribe tu código aquí
+
+const pet = "perro";
+if (pet == "perro") {
+console.log("Tengo un perro");
+} else if (pet == "gato") {
+console.log("Tengo un gato"); 
+} else if (pet == "pájaro") {
+console.log("Tengo un gato"); 
+} else {
+console.log("No tengo una mascota convencional");
+}
 
 
 //Ejercicio 4: cambia el valor de pet a "serpiente" y mira el resultado en consola para comprobar que tu código funciona bien.
@@ -64,6 +82,11 @@ const value = '1'
 //Ejercicio 9: Imprime en consola una lista del 0 al 10 con el bucle for
 
 //Escribe tu código aquí
+//Para cada uno de los elementos de 0 a 10, imprime el numero
+
+for (let i = 0; i <= 10; i++) {
+    console.log("iteración numero: " + i);
+}
 
 
 //Ejercicio 10: Con un bucle for in imprime en pantalla todos los nombres, apellidos y su aporte a la sociedad de las programadoras de la historia contenidas en el array llamado 'programmers', Deberás imprimir el índice y la información de cada una de ellas de la siguiente manera: '0: Ada Lovelace, su aporte fue la máquina analítica'. 
