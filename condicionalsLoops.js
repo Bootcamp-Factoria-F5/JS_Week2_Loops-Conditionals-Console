@@ -17,7 +17,7 @@ console.log(nombre);
 
 //Ejercicio 1: Escribe un condicional if/else que imprima en la consola 'Eres mayor de edad' cuando la constante age tenga el valor correspondiente, si no es así, debe imprimir 'No eres aún mayor de edad'
 
-const age = 12
+const age = 18
 if (age >= 18) {
 console.log("eres mayor de edad");
 } else {
@@ -27,7 +27,7 @@ console.log("No eres aún mayor de edad");
 
 //Ejercicio 2: Cambia el valor de age a 12 para mirar el resultado del ejercicio anterior.
 
-
+const age1 = 12
 if (age1 >= 18) {
 console.log("eres mayor de edad");
 } else {
@@ -82,7 +82,7 @@ case "mascota":
 
 const weather = "soleado"
 
-const result = tiempo === "soleado" ? "Me vestiré con un vestido" : "Me vestiré con un pantalón";
+const result = weather == "soleado" ? "Me vestiré con un vestido" : "Me vestiré con un pantalón";
 
 console.log(result)
 
