@@ -141,6 +141,12 @@ const programmers = [
 
 //Escribe tu código aquí
 
+for (let i in programmers) {
+    const programadora = programmers[i];
+    console.log(`${i}: ${programadora.name} ${programadora.lastname}, su aporte fue ${programadora.knowledge}`);
+    
+}
+
 
 //Ejercicio 11: Con un bucle for of imprime en consola "Hola, mi nombre es ... " y reemplaza los tres puntos con cada nombre del array dado.
 
@@ -148,12 +154,34 @@ const names = ['Rocío', 'Lola', 'Antía', 'Laura', 'Noelia']
 
 //Escribe tu código aquí
 
+for (let something in names) {
+    let text = "something";
+    for (let x of names) {
+    something = x;
+    console.log("Hola, mi nombre es" + something);
+    }
+}
+
 
 //Ejercicio 12: Con un bucle while imprime en consola una lista del 1 al 5.
 
 //Escribe tu código aquí
 
+let n = 0;
+while (n < 5) {
+    n++;
+    console.log(n);
+}
+
+
 
 //Ejercicio 13: Realiza el mismo ejercicio anterior pero con un bucle do while.
 
 //Escribe tu código aquí
+
+let i =  0;
+do {
+    i++;
+    console.log(i);
+    while (1 < 5);
+} 
